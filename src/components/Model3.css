@@ -1,0 +1,53 @@
+.featureSection {
+    max-width: 140rem;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.image img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 56rem;
+    background-repeat: no-repeat;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    /* color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    opacity: 0.85;
+    font-size: 18px;
+    color:white;
+    background-color: black;
+
+}
+
+button:hover{
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+}

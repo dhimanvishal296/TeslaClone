@@ -1,0 +1,38 @@
+.container{
+    max-width: 1400rem;
+    margin: 0 auto;
+}
+
+.grid-template{
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.header{
+    margin: 0 auto;
+}
+button {
+    margin-top: 20px;
+   
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    /* color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    opacity: 0.85;
+    font-size: 18px;
+    color:white;
+    background-color: black;
+
+}
+
+button:hover{
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+}
